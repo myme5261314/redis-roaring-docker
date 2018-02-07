@@ -4,7 +4,7 @@ ENV ROARING_REDIS_GIT_URL https://github.com/aviggiano/redis-roaring.git
 RUN set -ex; \
     \
     buildDeps=' \
-        ca-certificates
+        ca-certificates \
         cmake \
         gcc \
         git \
